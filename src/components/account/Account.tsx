@@ -11,7 +11,7 @@ const Account: FC<IAccount> = ({ balance, setBalance, nickname }) => {
 		<div className="flex p-4 justify-center bg-navbar rounded text-center max-w-xs w-full">
 			<div className="flex justify-center items-center gap-4 flex-col">
 				<img
-					src="/src/assets/img/avatarka.jpg"
+					src="./src/assets/img/avatarka.jpg"
 					alt="user_logo"
 					width={50}
 					height={50}
