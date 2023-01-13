@@ -10,7 +10,7 @@ const App: FC = () => {
 		<>
 			<Routes>
 				<Route path="/" element={<Layout />}>
-					<Route index path="/" element={<Home />} />
+					<Route index path="/randomNumber-game/" element={<Home />} />
 					<Route path="/contacts" element={<Contacts />} />
 					<Route path="/faq" element={<Faq />} />
 				</Route>
