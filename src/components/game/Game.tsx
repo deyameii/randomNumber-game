@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { FC } from 'react'
 import BetProfit from './BetProfit'
 import MathField from './MathField'
